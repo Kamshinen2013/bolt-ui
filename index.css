@@ -1,0 +1,750 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+.headerContainer{
+
+}
+
+.topHeader{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(245, 245, 245);
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.header{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1210px;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.headerRight{
+    margin-right: 30px;
+}
+
+.headerNavigation{
+    display: flex;
+}
+
+.headerNavigation >p{
+    color: gray;
+}
+.headerList{
+    display: flex;
+    align-items: center;
+}
+
+.headerList> .nav{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #23a968;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.headerImage{
+    width: 20px;
+}
+
+.bottomHeaderContainer{
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomHeader{
+    max-width: 1210px;
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.bottomHeaderLogo{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.bottomHeaderNav{
+    /* margin-left: 30px; */
+}
+
+.navList{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.navListItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    height: 45px;
+    border-radius: 10px;
+    /* width: 100px; */
+}
+
+.navListItem:hover{
+background-color:rgb(245, 245, 245) ;
+}
+
+.arrowIcon{
+    color: gray;
+    font-weight: bold;
+}
+
+.heroContainer{
+    height: 95vh;
+    display: flex;
+    width: 100%;
+}
+
+.leftHero{
+    flex: 1;
+    /* background-color: rgb(21, 148, 106); */
+    background-color: #27b973;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    color: white;
+}
+
+.leftContainer{
+    max-width: 500px;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+}
+
+.leftTitle{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.leftDesc{
+    font-size: 20px;
+}
+
+.downloadOptionsContainer{
+    width: 100%;
+    max-width: 500px;
+}
+
+.downloadOptions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+/* check line 404 and the two css identifiers there for the image styling */
+
+.rightHero{
+    flex: 1;
+}
+
+.heroImg{
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+    /* height: 0%; */
+}
+
+.callToAction{
+    height: 30vh;
+    background-color: rgb(83, 83, 240);
+    width: 100%;
+    margin-top: -20px;
+}
+
+.callContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 4;
+}
+
+.left{
+    flex: 1;
+    max-width: 500px;
+    align-items: center;
+    
+}
+
+.callTitle{
+    color: white;
+    font-size: 33px;
+    margin-bottom: 5px;
+}
+
+.callDesc{
+    color: white;
+    margin-top: 10px;
+}
+
+.signUpBtn{
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+
+}
+
+.benfitsContainer{
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits{
+    flex: 1;
+    height: 80vh;
+    width: 100%;
+    max-width: 1210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    width: 300px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.itemImg{
+    width: 150px;
+    object-fit: cover;
+    /* height: 90%; */
+}
+
+.itemImgIn{
+    height: 100px;
+}
+
+.itemImgRide{
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.itemTitle{
+    font-size: 33px;
+}
+
+.itemDesc{
+    color: gray;
+    font-size: 18px;
+    text-align: start;
+
+}
+
+.rideInMinutesContainer{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    background-color: #d9fde5;
+    justify-content: center;
+}
+
+.rideInMinutes{
+    max-width: 1210px;
+    width: 100%;
+    display: flex;
+    padding: 0px 30px;
+    gap: 30px;
+    /* position: relative; */
+}
+
+.leftRide{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.ridesTitle{
+    font-size: 50px;
+    color: rgb(6, 6, 51);
+    margin-bottom: 0px;
+}
+
+.ridesDesc{
+    font-size: 18px;
+    color: gray;
+}
+
+.right{
+    position: relative;
+    width: 100%;
+    display: flex;
+    
+}
+.phoneImg{
+    /* width: 100%; */
+    height: 95vh;
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+    object-fit: cover;
+    /* transform: rotate(20deg);
+    transform: rotate3d(7, 10, 9, 60deg); */
+}
+
+.bolt{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+
+.boltContainer{
+    flex: 1;
+    max-width: 1500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 40px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    width: 350px;
+    /* margin: 0px 50px; */
+}
+
+.boltImgContainer{
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+.boltImg{
+    font-size: 24px;
+    color: #27b973;
+}
+
+.boltTitle{
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: rgb(12, 12, 81);
+}
+
+.boltDesc{
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.readyToRide{
+    width: 100%;
+    height: 50vh;
+    background-color:#27b973;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readyToRideContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.readyTorideTitle{
+    font-size: 45px;
+    color: white;
+}
+
+.readyToRidOption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.readyToRideImg{
+    width: 30%;
+    margin-bottom:40px ;
+}
+
+.apple{
+    width: 30%; 
+    height: 30px;
+    /* check line 156 for the images in the other page */
+}
+
+.google{
+    width:30% ;
+}
+
+.readyToRideDesc{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.readyToRideDesc >a{
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer{
+    max-width: 1210px;
+}
+
+.topFooter{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.boltLogo{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.boltImageContainer{
+    margin-bottom: -10px;
+}
+
+.earthImg{
+    height: 20px;
+}
+
+.item{
+    flex: 1;
+}
+
+.listTitle{
+    font-size: 20px;
+}
+
+.item> ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    line-height: 50px;
+    font-size: 16px;
+    color: gray;
+    cursor: pointer;
+}
+
+.listItem:hover{
+    color: #27b973;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.socialIcons{
+    display: flex;
+    gap: 30px;
+}
+
+.social{
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: rgb(239, 234, 234);
+    padding: 5px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color:  rgb(245, 245, 245);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.finalFooter{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.security{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+@media(max-width: 700px){
+
+    .headerRight{
+        display: none;
+    }
+
+    .bottomHeaderLogo{
+        margin-left: 10px;
+    }
+
+    .bottomHeaderNav{
+        display: none;
+    }
+
+    .heroContainer{
+        flex-direction: column;
+    }
+
+    .leftHero{
+        height: 80vh;
+        padding-top: 25px;
+        justify-content: center;
+    }
+
+    .leftTitle{
+        font-size: 50px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .leftDesc{
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .downloadOptionsContainer{
+        margin: -50px 3px 50px 140px
+    }
+
+    .downloadOptions{
+        margin-left: auto;
+    }
+
+    .heroImg{
+        height: 40vh;
+    }
+
+    .callToAction{
+        height: 30vh;
+        margin-top: -44px;
+        margin-bottom: 50px;
+    }
+
+    .callContainer{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .callTitle{
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .signUpBtnContainer{
+        margin-bottom: 15px;
+    }
+
+    .signUpBtn{
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .benefits{
+        flex-direction: column;
+        height: 60vh;
+        margin-bottom: -100px;
+        margin-top: -200px;
+    }
+
+    .benfitsContainer{
+
+    }
+
+    .item{
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -100px;
+       
+    }
+
+    .itemImgRide{
+        width: 25%;
+    }
+
+    .itemImgIn{
+        width:80%;
+        margin-left: 20px;
+    }
+
+    .TitleDescContainer{
+        
+    }
+
+    .itemTitle{
+        font-size: 23px;
+    }
+
+    .itemDesc{
+        font-size: 13px;
+    }
+
+    .rideInMinutesContainer{
+        height: 70vh;
+    }
+
+    .rideInMinutes{
+        flex-direction: column;
+        position: relative;
+        margin-bottom: -100px;
+    }
+
+    .leftRide{
+        position: absolute;
+        bottom: -10px;
+        margin-bottom: -50px;
+    }
+
+    .ridesTitle{
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    .ridesDesc{
+        font-size: 22px;
+    }
+
+    .phoneImg{
+        bottom: -550px;
+        left: -50px;
+        height: 85vh;
+        margin-bottom: -150px;
+       
+    }
+
+    .bolt{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boltContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boltImg{
+        font-size: 50px;
+        flex: 1;
+
+    }
+
+    .itemBolt{
+        width: 80%;
+        justify-content: space-between;
+        padding: 20px;
+        display: flex;
+    }
+
+    .boltTitleDesc{
+        flex: 4;
+    }
+    .boltTitle{
+        font-size: 33px;
+    }
+
+    .boltDesc{
+        font-size: 23px;
+    }
+
+    .footer{
+    
+    }
+    .topFooter{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .topFooter> .item{
+        display: flex;
+        flex-direction: column;
+        margin-left: -90px;
+        width: 100%;
+        align-items:center
+    }
+
+    .item> .listTitle{
+        font-size: 40px;
+        margin-bottom: -10px;
+    }
+
+    .list>.listItem{
+        font-size: 25px;
+        text-align: center;
+    }
+}
